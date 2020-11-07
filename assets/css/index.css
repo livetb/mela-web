@@ -1,0 +1,130 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.content-block {
+  width: 100%;
+  min-width: 360px;
+  max-width: 480px;
+  margin: auto;
+}
+.content-block * {
+  font-family: Roboto;
+}
+/* 1 */
+.download-mela {
+  position: relative;
+}
+.download-mela > .bg {
+  width: 100%;
+  height: auto;
+}
+.download-mela .logo {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 14px;
+  top: 13px;
+}
+.download-mela > .text-container {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.text-container > * {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+.text-container > *:last-child {
+  margin: 0;
+}
+.mela {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 43px;
+}
+.text-container > p {
+  color: #FFF;
+  white-space: pre-line;
+  font-weight: 400;
+  font-size: 12px;
+}
+a, a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #000;
+}
+.text-container > a {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #FFF;
+  color: #FE0405;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 15px;
+}
+/* 2 */
+.advantage > h2 {
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 25px 0 25px 35px;
+}
+.advantage > img {
+  width: 94.4%;
+  height: auto;
+  margin: 0 2.8% 20px 2.8%;
+}
+.description {
+  width: 80.8%;
+  margin: 0 9.6% 40px 9.6%;
+}
+.description > h3 {
+  color: #000;
+  font-size: 16px;
+}
+.description > p {
+  color: #565656;
+  font-size: 13px;
+}
+/* 3 */
+.start-and-email {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.start-and-email > h2 {
+  color: #000;
+  font-weight: 400;
+  font-size: 22px;
+}
+.start-and-email > a {
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 1px 1px #FF0A62;
+  color: #FF0A62;
+}
+/* 4 */
+.footer {
+  height: 48px;
+  background-color: #35343C;
+  display: grid;
+  place-items: center;
+}
+.footer > p {
+  font-weight: 400;
+  color: #C6C6C6;
+  font-size: 8px;
+}
